@@ -1,0 +1,25 @@
+# ===== 私有配置（含 API Key，绝不能上传）=====
+config.py
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== 大文件 / 数据（不上传）=====
+*.zip
+*.part
+datasets/
+*.bin
+
+# ===== 运行输出 =====
+diagnosis_report.txt
+expert_answer.txt
+航拍诊断报告.txt
+*.log
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+.DS_Store

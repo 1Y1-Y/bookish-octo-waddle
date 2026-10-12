@@ -1,0 +1,23 @@
+# ===== 烟叶病害识别项目 依赖 =====
+# 注意：torch 需装 CUDA 版（GPU 训练），不能直接 pip install torch
+# 安装命令见 README.md 的"环境配置"章节
+
+# 深度学习框架（CUDA 版，需指定 index-url）
+torch>=2.0
+torchvision>=0.15
+
+# 图像处理
+numpy
+opencv-python
+pillow
+
+# 可视化
+matplotlib
+
+# 网页界面 + 大模型 + 语音识别
+gradio
+openai
+faster-whisper
+
+# 可选：目标检测（YOLO）
+# ultralytics

@@ -1,0 +1,25 @@
+path: D:/tobacco/datasets
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 17
+names:
+  0: Black Spot
+  1: Black shank
+  2: Early Blight
+  3: Healthy
+  4: Healthy Leaf
+  5: Late Blight
+  6: Leaf Miner
+  7: Leaf Mold
+  8: Leaf Spot
+  9: Mosaic Virus
+  10: Powdery Mildew
+  11: Septoria_Blight
+  12: Spider Mites
+  13: Tobacco leaf curl disease
+  14: Tobacco mosaic virus
+  15: Yellow Leaf Curl Virus
+  16: brown sport
